@@ -14,6 +14,8 @@
 
 </div>
 
+> **This fork** ([PrabeshPathak2002/controls_challenge](https://github.com/PrabeshPathak2002/controls_challenge)): honest `steer_lookup` @ **52.5** / 5k (PID 111.3). Full write-up: [`WRITEUP.md`](WRITEUP.md).
+
 Machine learning models can drive cars, paint beautiful pictures and write passable rap. But they famously suck at doing low level controls. Your goal is to write a good controller. This repo contains a model that simulates the lateral movement of a car, given steering commands. The goal is to drive this "car" well for a given desired trajectory.
 
 ## Getting Started
