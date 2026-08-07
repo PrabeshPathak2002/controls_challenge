@@ -1,5 +1,25 @@
 __pycache__/
+*.py[cod]
+.venv/
+.venv_magnolia/
 data/
 report.html
 models/tinyphysics_*.onnx
 *.swp
+.DS_Store
+
+# local experiment outputs
+*_costs.csv
+*_hist.png
+*_tune_history.csv
+*_tune_results.json
+*_vs_pid_*.csv
+*_vs_pid_*.png
+pid_demo_*.png
+rl_runs/
+logs/
+*.tar.gz
+*.zip
+
+# keep the submitted lookup table; ignore shard intermediates
+artifacts/steer_lookup_*.npz
